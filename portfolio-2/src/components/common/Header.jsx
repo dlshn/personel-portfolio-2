@@ -14,6 +14,7 @@ export const Header = () => {
                 <div className="logo">
                     <img src={logo} alt="" />
                 </div>
+                {/*navbar components link from dummy data */}
                 <div className={responsive ? "hideMenu" : "nav"}>
                     {navlink.map((links,i)=>(
                         <Link to={links.url} key={i}>
@@ -21,7 +22,7 @@ export const Header = () => {
                         </Link>
                     ))}
                     
-                </div>
+                </div> 
                 <button className='toggle' onClick={()=>setResponsive(!responsive)}>
                     <Menu className='icon'></Menu>
                 </button>
