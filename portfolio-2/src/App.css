@@ -62,6 +62,11 @@ button {
   cursor: pointer;
 }
 
+.primaryBtn{
+  background: none;
+  border: 2px solid var(--primaryColor);
+}
+
 
 
 /*---------header-------------*/
@@ -107,3 +112,85 @@ header a {
   }
 }
 /*---------header-------------*/
+
+section{
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+.flex{
+  display: flex;
+}
+/*---------hero-------------*/
+.hero{
+  position: relative;
+}
+.hero::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../public/hero-bg-2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 90vh;
+}
+.heroContainer{
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.hero h1{
+  font-size: 60px;
+  font-weight: 600;
+  color: var(--primaryColor) ;
+}
+/*---------hero-------------*/
+.heading{
+  font-size: 30px;
+  color: var(--primaryColor);
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 60px;
+
+}
+
+/*---------about-------------*/
+.about .heading {
+  text-align: left;
+  margin: 0;
+
+}
+.left{
+  width: 35%;
+}
+.right{
+  width: 65%;
+  display: block;
+  margin: auto;
+}
+
+/*---------about-------------*/
+
+
+
+/*---------skills-------------*/
+.skills .content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 20px; /* Space between boxes */
+
+}
+.box{
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: var(--primaryBackground);
+}
+.box h3{
+  color: var(--primaryColor);
+}
+
+/*---------skills-------------*/

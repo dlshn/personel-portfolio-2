@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {Link} from "react-router-dom";
-import {navlink} from "../data/dummydata"
-import logo from "../data/image/logo.png"
+// import {navlink} from "../data/dummydata"
+// import logo from "../data/image/logo.png"
 import { Menu } from '@mui/icons-material';
 
 export const Header = () => {
@@ -12,15 +12,16 @@ export const Header = () => {
         <header>
             <div className="container flexsb">
                 <div className="logo">
-                    <img src={logo} alt="" />
+                    {/* <img src={logo} alt="" /> */}
+                    Dilshan
                 </div>
                 {/*navbar components link from dummy data */}
                 <div className={responsive ? "hideMenu" : "nav"}>
-                    {navlink.map((links,i)=>(
-                        <Link to={links.url} key={i}>
-                            {links.text}
-                        </Link>
-                    ))}
+                    
+                    <Link to="/">Home</Link>
+                    <Link to="/About">About</Link>
+                    <Link to="/Skills">Skills</Link>
+                    <Link to="/Contact">Contact</Link>
                     
                 </div> 
                 <button className='toggle' onClick={()=>setResponsive(!responsive)}>
@@ -31,3 +32,10 @@ export const Header = () => {
     </>
   )
 }
+
+
+{/* {navlink.map((links,i)=>(
+                        <Link to={links.url} key={i}>
+                            {links.text}
+                        </Link>
+                    ))} */}
