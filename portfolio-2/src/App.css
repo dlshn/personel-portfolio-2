@@ -66,6 +66,11 @@ button {
   background: none;
   border: 2px solid var(--primaryColor);
 }
+.primaryBtn:hover{
+  color: #000;
+  background-color: var(--primaryColor);
+  border: 2px solid white;
+}
 .logo {
   font-family: 'Pacifico', cursive; /* Custom font */
   font-size: 28px; /* Adjust size */
@@ -185,6 +190,11 @@ section{
   display: block;
   margin: auto;
 }
+.cv-button:hover{
+  background-color: transparent;
+  border: 2px solid var(--primaryColor);
+
+}
 
 /*---------about-------------*/
 
@@ -192,11 +202,11 @@ section{
 
 /*---------skills-------------*/
 .skills {
-  background-image: url('../public/hero-bg-3.jpg');
+  background-image: url('../public/skill-bg\ \(3\).jpg');
   background-size: cover; /* Ensures the image covers the whole background */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Ensures the image does not repeat */
-  padding: 60px 0; /* Adds padding for space around the content */
+  /* padding: 60px 0; Adds padding for space around the content */
   color: white; /* Makes sure the text is visible over the background */
 }
 .skills .content {
@@ -218,6 +228,14 @@ section{
 /*---------skills-------------*/
 
 /*---------contact-------------*/
+.contact {
+  background-image: url('../public/contact-bg\ \(2\).jpg');
+  background-size: cover; /* Ensures the image covers the whole background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Ensures the image does not repeat */
+  /* padding: 60px 0; Adds padding for space around the content */
+  color: white; /* Makes sure the text is visible over the background */
+}
 
 .contact .content  {
   display: grid;

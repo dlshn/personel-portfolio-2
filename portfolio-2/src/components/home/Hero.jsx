@@ -6,7 +6,7 @@ export const Hero = () => {
     <>
         <section className="hero">
             <div className="heroContainer">
-                <h3 data-aos="fade-down">Hello I'm</h3>
+                <h2 data-aos="fade-down">Hello I'm</h2>
                 <h1>
                   <Typewriter 
                     options={{
@@ -31,6 +31,7 @@ export const Hero = () => {
 
             </div>
         </section>
+        <hr data-aos="fade-down"/>
     </>
   )
 }

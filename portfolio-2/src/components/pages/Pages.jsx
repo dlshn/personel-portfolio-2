@@ -16,13 +16,11 @@ const pages = () => {
     <>
     <Router>
         <Header />
-        
         <Switch>
           <Route exact path='/' component={Home}/>
           <Route exact path='/About' component={About}/>
           <Route exact path='/Skills' component={Skills}/>
           <Route exact path='/Contact' component={Contact}/>
-          
         </Switch>
         <Footer/>
     </Router>

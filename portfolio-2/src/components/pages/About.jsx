@@ -18,7 +18,7 @@ export const About = () => {
                     <p data-aos="fade-down-left">
                         Born on September 17, 2000, I am a male living in Kelaniya. I attended <b>Suriyawewa National School</b> and am currently pursuing my degree with a focus on <b>AI and Full-Stack Development</b>.
                     </p>
-                    <button data-aos="fade-down-left">Download CV</button>
+                    <button className='cv-button' data-aos="fade-down-left">Download CV</button>
                 </div>
 
 

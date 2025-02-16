@@ -9,9 +9,12 @@ export const Header = () => {
     <>
         <header>
             <div className="container flexsb">
+                <Link to="/">
                 <div className="logo">
                     Dilshan
                 </div>
+                </Link>
+                
                 
                 <div className={responsive ? "hideMenu" : "nav"}>
                     
@@ -30,9 +33,3 @@ export const Header = () => {
   )
 }
 
-
-{/* {navlink.map((links,i)=>(
-                        <Link to={links.url} key={i}>
-                            {links.text}
-                        </Link>
-                    ))} */}

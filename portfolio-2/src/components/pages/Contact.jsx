@@ -23,6 +23,7 @@ export const Contact = () => {
         <button className='primaryBtn' data-aos="fade-up">Download CV</button>
       </div>
     </section>
+    <hr data-aos="fade-down"/>
     </>
   )
 }
