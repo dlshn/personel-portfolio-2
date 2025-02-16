@@ -1,14 +1,15 @@
 import React from 'react'
-import { Header } from '../common/Header';
 import {
     BrowserRouter as Router,
     Switch,
     Route
 } from "react-router-dom";
+import { Header } from '../common/Header';
 import { Home } from '../home/Home';
 import { About } from './About';
-import { Skills } from '../home/Skills';
-import { Contact } from '../home/Contact';
+import { Skills } from './Skills';
+import { Contact } from './Contact';
+import { Footer } from '../common/Footer'
 
 const pages = () => {
   return (
@@ -20,8 +21,8 @@ const pages = () => {
           <Route exact path='/About' component={About}/>
           <Route exact path='/Skills' component={Skills}/>
           <Route exact path='/Contact' component={Contact}/>
-          
         </Switch>
+        <Footer/>
     </Router>
     </>
   )

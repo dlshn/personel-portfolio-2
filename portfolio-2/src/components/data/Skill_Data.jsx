@@ -1,33 +1,32 @@
 export const skill = [
-    {
-      icon: "⚙️", // You can replace this with an actual icon component
-      name: "Artificial Intelligence",
-      desc: "Experience in Machine Learning, Deep Learning, and AI model development."
-    },
-    {
-      icon: "💻",
-      name: "Full-Stack Development",
-      desc: "Skilled in building scalable web applications using React, Node.js, and Spring Boot."
-    },
-    {
-      icon: "📊",
-      name: "Data Science",
-      desc: "Proficient in data preprocessing, visualization, and predictive modeling."
-    },
-    {
-      icon: "🚀",
-      name: "React & Frontend Development",
-      desc: "Expert in modern UI development with React, Tailwind CSS, and responsive design."
-    },
-    {
-      icon: "🗄️",
-      name: "Backend Development",
-      desc: "Experienced in API development with Node.js, Express, and Spring Boot."
-    },
-    {
-      icon: "☁️",
-      name: "Cloud & DevOps",
-      desc: "Knowledge in AWS, Firebase, and CI/CD deployment pipelines."
-    }
-  ];
-  
+  {
+    icon: "⚙️",
+    name: "Artificial Intelligence",
+    desc: "Learned concepts of AI, including machine learning techniques."
+  },
+  {
+    icon: "💻",
+    name: "Full-Stack Development",
+    desc: "Skilled in building full-stack applications using Java, C#, JavaScript, and Spring Boot."
+  },
+  {
+    icon: "📊",
+    name: "Data Science",
+    desc: "Familiar with data analysis, preprocessing, and visualization using Python and related libraries."
+  },
+  {
+    icon: "🚀",
+    name: "Frontend Development",
+    desc: "Proficient in building modern UIs using React, Bootstrap, and Tailwind CSS."
+  },
+  {
+    icon: "🗄️",
+    name: "Backend Development",
+    desc: "Experience in backend development with Flask, Node.js, and PHP, as well as API integration."
+  },
+  {
+    icon: "☁️",
+    name: "Cloud & Hosting",
+    desc: "Familiar with Firebase for cloud solutions and deploying apps on GitHub."
+  }
+];

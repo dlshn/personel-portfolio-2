@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Heading = ({title}) => {
   return (
-    <h1 className='heading'>{title}</h1>
+    <h1 className='heading' data-aos="fade-down">{title}</h1>
   )
 }

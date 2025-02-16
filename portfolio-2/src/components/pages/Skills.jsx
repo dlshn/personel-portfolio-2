@@ -7,11 +7,11 @@ export const Skills = () => {
     <>
     <section className="skills">
         <div className="container">
-            <Heading title="My Skills"/>
+            <Heading title="My Skills" data-aos="fade-down"/>
             <div className="content">
                 {skill.map((item,i)=>{
                     return (
-                        <div className='box' key={i}>
+                        <div className='box' key={i} data-aos="flip-left">
                             <i>{item.icon}</i>
                             <h3>{item.name}</h3>
                             <p>{item.desc}</p>
@@ -22,6 +22,7 @@ export const Skills = () => {
             </div>
         </div>
     </section>
+    <hr data-aos="fade-down"/>
     </>
   )
 }
