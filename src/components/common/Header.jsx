@@ -9,11 +9,11 @@ export const Header = () => {
     <>
         <header>
             <div className="container flexsb">
-                <Link to="/">
+                
                 <div className="logo">
                     Dilshan
                 </div>
-                </Link>
+                
                 
                 
                 <div className={responsive ? "hideMenu" : "nav"}>

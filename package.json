@@ -1,8 +1,4 @@
-
-
-
 {
-  
   "name": "portfolio-2",
   "homepage": "https://dlshn.github.io/personel-portfolio-2",
   "version": "0.1.0",
@@ -31,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "yarn run gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
