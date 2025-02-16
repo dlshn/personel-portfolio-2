@@ -8,17 +8,27 @@ export const Hero = () => {
             <div className="heroContainer">
                 <h3 data-aos="fade-down">Hello I'm</h3>
                 <h1>
-                    <Typewriter options={{strings: ['Dilshan Gamage', 
-                                                    'Software Engineer', 
-                                                    'Specialized in AI', 
-                                                    'Full-Stack Developer', 
-                                                    'Enjoy your stay!'],
-                                        autoStart: true,
-                                        loop: true
-                                    }}/>
+                  <Typewriter 
+                    options={{
+                        strings: [
+                            'Dilshan Gamage', 
+                            'Software Engineer', 
+                            'AI Specialist', 
+                            'Full-Stack Developer', 
+                            'Passionate About Machine Learning & UI/UX'
+                        ],
+                        autoStart: true,
+                        loop: true
+                    }} 
+                  />
+
                 </h1>
-                <p data-aos="fade-up">Hi, I'm Dilshan Gamage, an undergraduate Software Engineer specializing in AI and Full-Stack Development. I love building smart systems and creating smooth digital experiences. I'm always learning and exploring new technologies. Welcome to my portfolio—feel free to explore my work and connect. Enjoy your stay!</p>
-                <button className='primaryBtn' data-aos="fade-down">Download CV</button>
+                <p data-aos="fade-up">Hi, I'm Dilshan Gamage, a passionate Computer Science undergraduate at the University of Kelaniya, specializing in Artificial Intelligence. I focus on Full-Stack Development, Machine Learning, and UI/UX design. I love building intelligent and scalable applications that solve real-world problems. Innovation and continuous learning drive me forward. Welcome to my portfolio—explore my work and feel free to connect!</p>
+                
+                <a href="https://github.com/dlshn" target="_blank" rel="noopener noreferrer">
+                  <button className='primaryBtn' data-aos="fade-down">Explore My Work</button>
+                </a>
+
             </div>
         </section>
     </>

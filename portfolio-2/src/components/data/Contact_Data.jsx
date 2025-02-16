@@ -4,7 +4,7 @@ export const contact = [
     {
       icon: "📧",
       name: "Email",
-      detail: "sandaru-cs20051@stu.kln.ac.lk"
+      detail: "sandaru-cs20051@stu.kln.ac.lk / dlshngamage917@gmail.com"
     },
     {
       icon: "📞",
@@ -12,16 +12,17 @@ export const contact = [
       detail: "0705570433"
     },
     {
+      icon: "📞",
+      name: "WhatsApp",
+      detail: "0705570433",
+  }
+,
+    {
         icon: "📍",
         name: "Location",
-        detail: "Kelaniya, Sri Lanka"
+        detail: "Kelaniya, Western Province, Sri Lanka."
     },
-    {
-        icon: "📞",
-        name: "WhatsApp",
-        detail: "0705570433",
-    }
-,    
+        
     {
       icon: "💼",
       name: "LinkedIn",
@@ -40,17 +41,17 @@ export const contact = [
     {
         icon: "📘",
         name: "Facebook",
-        url: "https://www.facebook.com/yourprofile" // Replace with your Facebook profile
+        url: "https://www.facebook.com/dilshanrandikasandaruwan.drs/" // Replace with your Facebook profile
       },
       {
         icon: "📌",
         name: "Pinterest",
-        url: "https://www.pinterest.com/yourprofile" // Replace with your Pinterest profile
+        url: "https://www.pinterest.com/agrizoneofficial01/" // Replace with your Pinterest profile
       },
       {
         icon: "▶️",
         name: "YouTube",
-        url: "https://www.youtube.com/@yourchannel" // Replace with your YouTube channel
+        url: "https://www.youtube.com/@AgriZone-" // Replace with your YouTube channel
       }
   ];
   
