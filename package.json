@@ -1,6 +1,6 @@
 {
-  "name": "portfolio-2",
   "homepage": "https://dlshn.github.io/personel-portfolio-2",
+  "name": "portfolio-2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,7 +13,7 @@
     "cra-template": "1.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^5.3.4",
+    "react-router-dom": "^6.29.0",
     "react-scripts": "^5.0.1",
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1",
