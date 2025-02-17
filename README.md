@@ -4,7 +4,7 @@
 I'm **Dilshan Gamage**, a **Computer Science undergraduate** at the **University of Kelaniya**, specializing in **Artificial Intelligence**. Passionate about AI, Full-Stack Development, and UI/UX, I love building scalable and intelligent applications.
 
 ## 🔗 Live Portfolio
-[🔗 Visit My Portfolio](https://your-portfolio-link.com)
+[🔗 Visit My Portfolio](https://dlshn.github.io/personel-portfolio-2/)
 
 ## 🛠 Tech Stack
 - **Frontend:** React.js, CSS
@@ -21,10 +21,10 @@ I'm **Dilshan Gamage**, a **Computer Science undergraduate** at the **University
 To run this portfolio locally:
 ```sh
 # Clone the repository
-git clone https://github.com/yourusername/your-portfolio.git
+git clone https://github.com/dlshn/personel-portfolio-2.git
 
 # Navigate to the project folder
-cd your-portfolio
+cd personel-portfolio
 
 # Install dependencies
 npm install
