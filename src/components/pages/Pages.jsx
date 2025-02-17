@@ -1,31 +1,25 @@
-import React from 'react'
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route
-} from "react-router-dom";
+import React from 'react';
+import { HashRouter as Router, Routes, Route } from "react-router-dom";  
 import { Header } from '../common/Header';
 import { Home } from '../home/Home';
 import { About } from './About';
 import { Skills } from './Skills';
 import { Contact } from './Contact';
-import { Footer } from '../common/Footer'
+import { Footer } from '../common/Footer';
 
-const pages = () => {
+const Pages = () => {
   return (
-    <>
-    <Router>
-        <Header />
-        <Switch>
-          <Route exact path='/' component={Home}/>
-          <Route exact path='/About' component={About}/>
-          <Route exact path='/Skills' component={Skills}/>
-          <Route exact path='/Contact' component={Contact}/>
-        </Switch>
-        <Footer/>
+    <Router>  
+      <Header />
+      <Routes basename="/personel-portfolio-2"> 
+        <Route path='/' element={<Home />} /> 
+        <Route path='/About' element={<About />} />
+        <Route path='/Skills' element={<Skills />} />
+        <Route path='/Contact' element={<Contact />} />
+      </Routes>
+      <Footer />
     </Router>
-    </>
-  )
-}
+  );
+};
 
-export default pages
+export default Pages;
