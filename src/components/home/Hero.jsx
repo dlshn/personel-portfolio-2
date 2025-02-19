@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect';
 
 export const Hero = () => {
   return (
-    <>
+    <> 
         <section className="hero">
             <div className="heroContainer">
                 <h2 data-aos="fade-down">Hello I'm</h2>
